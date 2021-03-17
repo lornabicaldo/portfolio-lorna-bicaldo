@@ -8,3 +8,8 @@ h2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+
+.fa-linkedin {
+  display: flex;
+  justify-content: center;
+}
