@@ -1,11 +1,13 @@
 :root {
   --primary-color: #f85a16;
   --secondary-color: #098b54;
-  --hero-bg-color: #fefea4;
+  --project-primary-font: "Tangerine", cursive;
+  --project-secondary-font: "Montserrat", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  font-family: "Tangerine", cursive;
+  font-family: var(--project-primary-font);
   font-size: 138px;
   font-weight: bolder;
   color: var(--primary-color);
@@ -13,16 +15,26 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--project-secondary-font);
   font-size: 38px;
   font-weight: bold;
   color: var(--secondary-color);
 }
 
+h3 {
+  font-family: var(--project-primary-font);
+  color: var(--primary-color);
+  font-weight: bold;
+  text-align: center;
+  font-size: 68px;
+  margin-bottom: 38px;
+}
+
 .hero {
   padding: 160px 28px;
-  background-color: var(--hero-bg-color);
+  background-color: #fefea4;
   text-align: center;
+  margin-bottom: 48px;
 }
 
 .contact-link {
@@ -32,4 +44,63 @@ h2 {
 .btn-success {
   padding: 15px 35px;
   font-size: 18px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  transition: background-color 0.5s;
+}
+
+.primary-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: background-color 0.5s;
+  box-shadow: var(--box-shadow);
+}
+
+.secondary-link:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+@media (max-width: 576px) {
+  .project-photo {
+    display: none;
+  }
+
+  h1 {
+    font-size: 68px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 42px;
+  }
+
+  .app-info {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
