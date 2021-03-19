@@ -1,15 +1,35 @@
+:root {
+  --primary-color: #f85a16;
+  --secondary-color: #098b54;
+  --hero-bg-color: #fefea4;
+}
+
 h1 {
   font-family: "Tangerine", cursive;
-  text-align: center;
-  font-size: 85px;
+  font-size: 138px;
+  font-weight: bolder;
+  color: var(--primary-color);
+  margin: 0 auto;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.hero {
+  padding: 160px 28px;
+  background-color: var(--hero-bg-color);
   text-align: center;
 }
 
-.fa-linkedin {
-  display: flex;
-  justify-content: center;
+.contact-link {
+  margin-top: 40px;
+}
+
+.btn-success {
+  padding: 15px 35px;
+  font-size: 18px;
 }
