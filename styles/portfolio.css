@@ -52,6 +52,36 @@ h3 {
   margin-top: 40px;
 }
 
+.about-me-page {
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.about-me-page h1 {
+  font-family: var(--project-primary-font);
+  text-align: center;
+  font-size: 88px;
+  font-weight: bolder;
+  color: var(--primary-color);
+  margin: 0 auto;
+}
+
+.about-me-page p {
+  font-family: var(--project-secondary-font);
+  font-size: 25px;
+}
+
+.about-page {
+  padding: 160px 10px;
+}
+
+.lorna-photo {
+  width: 480px;
+  border-radius: 30px;
+  margin-left: 75px;
+  box-shadow: var(--box-shadow);
+}
+
 .btn-success {
   padding: 15px 35px;
   font-size: 18px;
@@ -62,7 +92,6 @@ h3 {
   border-radius: 50px;
   padding: 20px 45px;
   text-decoration: none;
-  text-transform: capitalize;
   background: var(--secondary-color);
   box-shadow: 0 5px 18px rgba(240, 61, 6, 0.877);
   color: white;
@@ -73,6 +102,7 @@ h3 {
   background-color: var(--primary-color);
   color: white;
   font-weight: bold;
+  box-shadow: 0 5px 18px rgba(8, 105, 24, 0.877);
 }
 
 .secondary-link {
@@ -114,5 +144,20 @@ h3 {
     display: block;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .about-page {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-page p {
+    font-size: 18px;
+  }
+
+  .lorna-photo {
+    display: block;
+    margin: 45px 0px;
+    padding: 3px;
   }
 }
