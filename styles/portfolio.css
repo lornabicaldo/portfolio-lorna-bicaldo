@@ -33,6 +33,7 @@ h3 {
 .hero {
   padding: 160px 28px;
   text-align: center;
+  height: 750px;
   background: radial-gradient(
     circle at -8.9% 51.2%,
     rgb(255, 124, 0) 0%,
@@ -126,6 +127,7 @@ h3 {
 .project {
   padding: 160px 28px;
   text-align: center;
+  height: 750px;
   background: radial-gradient(
     circle at -8.9% 51.2%,
     rgb(255, 124, 0) 0%,
@@ -159,6 +161,24 @@ h3 {
   background-color: #ff9de2;
   width: 100%;
   height: auto;
+}
+
+.avatar {
+  max-width: 88px;
+  border-radius: 50px;
+}
+
+.nav-item {
+  padding: 30px;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: var(--secondary-color) !important;
+}
+
+.active {
+  color: var(--primary-color) !important;
 }
 
 @media (max-width: 576px) {
