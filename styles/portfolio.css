@@ -123,9 +123,51 @@ h3 {
   border: none;
 }
 
+.project {
+  padding: 160px 28px;
+  text-align: center;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+}
+
+.project p {
+  font-family: var(--project-secondary-font);
+  font-size: 18px;
+  color: white;
+}
+
+.project1 {
+  background-color: #eff669;
+  width: 100%;
+  height: auto;
+}
+
+.project2 {
+  background-color: #9bcb3c;
+  width: 100%;
+  height: auto;
+}
+
+.project3 {
+  background-color: #ff9de2;
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: 576px) {
   .project-photo {
     display: none;
+  }
+
+  .hero {
+    padding-left: 100px;
   }
 
   h1 {
@@ -140,9 +182,10 @@ h3 {
     font-size: 42px;
   }
 
-  .app-info {
+  .container {
     display: block;
     margin: 0 auto;
+    padding: 40px 0px;
     text-align: center;
   }
 
