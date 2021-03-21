@@ -225,7 +225,7 @@ footer .f-link:hover {
   transition: var(--transition);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 320px) {
   .project-photo {
     display: none;
   }
