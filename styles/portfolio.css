@@ -77,6 +77,11 @@ h3 {
   padding: 160px 10px;
 }
 
+.tech-icon {
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+
 .lorna-photo {
   width: 480px;
   border-radius: 30px;
