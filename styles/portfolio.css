@@ -193,7 +193,7 @@ footer .email-link {
 
 footer .email-link:hover {
   color: var(--secondary-color);
-  font-size: 65px;
+  font-size: 35px;
   font-family: var(--project-primary-font);
 }
 
@@ -225,7 +225,7 @@ footer .f-link:hover {
   transition: var(--transition);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .project-photo {
     display: none;
   }
@@ -246,6 +246,11 @@ footer .f-link:hover {
     font-size: 42px;
   }
 
+  .primary-link {
+    font-size: 15px;
+    padding: 15px;
+  }
+
   .container {
     display: block;
     margin: 0 auto;
@@ -254,16 +259,16 @@ footer .f-link:hover {
   }
 
   .about-page {
-    padding: 50px 0px;
+    padding-top: 80px;
     text-align: center;
   }
 
   .about-page p {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .about-page h1 {
-    font-size: 66px;
+    font-size: 50px;
   }
 
   .lorna-photo {
@@ -272,7 +277,18 @@ footer .f-link:hover {
     padding: 3px;
   }
 
+  .avatar {
+    margin-bottom: 40px;
+  }
+
   footer .social-links a {
     font-size: 30px;
+    display: inline block;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  footer p {
+    padding-top: 20px;
   }
 }
