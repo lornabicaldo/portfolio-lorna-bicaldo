@@ -77,9 +77,16 @@ h3 {
   padding: 160px 10px;
 }
 
-.tech-icon {
+.tech-name {
   color: var(--secondary-color);
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.tech-logo {
+  max-width: 85px;
+  border: none;
+  border-radius: 50px;
+  background: #cbcfcc;
 }
 
 .lorna-photo {
@@ -280,6 +287,11 @@ footer .f-link:hover {
     display: block;
     margin: 45px 0px;
     padding: 3px;
+  }
+
+  .tech-name {
+    border-radius: 5px;
+    border: 1px snow;
   }
 
   .avatar {
