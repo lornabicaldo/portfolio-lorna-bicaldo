@@ -49,12 +49,16 @@ h3 {
   line-height: 5px;
 }
 
-.about-me-page {
-  padding: 20px;
+.about-page {
   margin-top: 80px;
 }
 
-.about-me-page h1 {
+.about-me-page {
+  padding: 20px;
+  margin-top: 90px;
+}
+
+.about-page h1 {
   font-family: var(--project-primary-font);
   text-align: center;
   font-size: 88px;
@@ -63,13 +67,9 @@ h3 {
   margin: 0 auto;
 }
 
-.about-me-page p {
+.about-page p {
   font-family: var(--project-secondary-font);
   font-size: 25px;
-}
-
-.about-page {
-  padding-top: 160px;
 }
 
 .tech-name {
@@ -269,22 +269,21 @@ footer .f-link:hover {
   }
 
   .about-page {
-    padding-top: 80px;
+    padding-top: 50px;
     text-align: center;
-  }
-
-  .about-page p {
-    font-size: 15px;
   }
 
   .about-page h1 {
     font-size: 50px;
   }
 
+  .about-page p {
+    font-size: 15px;
+  }
+
   .lorna-photo {
     display: block;
-    margin: 5px 0px;
-    padding: 3px;
+    margin: 0 auto;
   }
 
   .tech-name {
