@@ -28,7 +28,6 @@ h3 {
   font-weight: bold;
   text-align: center;
   font-size: 68px;
-  margin: 15px 0px 38px;
 }
 
 .hero {
@@ -48,10 +47,6 @@ h3 {
 
 .hero h3 {
   line-height: 5px;
-}
-
-.contact-link {
-  margin-top: 80px;
 }
 
 .about-me-page {
@@ -74,7 +69,7 @@ h3 {
 }
 
 .about-page {
-  padding: 160px 10px;
+  padding-top: 160px;
 }
 
 .tech-name {
@@ -94,6 +89,10 @@ h3 {
   border-radius: 30px;
   margin-left: 75px;
   box-shadow: var(--box-shadow);
+}
+
+.certificates {
+  box-shadow: 5px 5px red, -1em 0 0.4em olive;
 }
 
 .btn-success {
@@ -176,16 +175,15 @@ h3 {
 }
 
 .avatar {
-  max-width: 88px;
+  max-width: 48px;
   border-radius: 50px;
 }
 
 .avatar:hover {
-  max-width: 99px;
+  max-width: 58px;
 }
 
 .nav-item {
-  padding: 30px;
   font-size: 25px;
 }
 
@@ -266,7 +264,7 @@ footer .f-link:hover {
   .container {
     display: block;
     margin: 0 auto;
-    padding: 40px 0px;
+    padding: 0px;
     text-align: center;
   }
 
@@ -285,7 +283,7 @@ footer .f-link:hover {
 
   .lorna-photo {
     display: block;
-    margin: 45px 0px;
+    margin: 5px 0px;
     padding: 3px;
   }
 
