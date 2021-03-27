@@ -301,6 +301,10 @@ footer .avatar {
     border: 1px snow;
   }
 
+  .project-title {
+    font-size: 23px;
+  }
+
   footer .avatar {
     margin-bottom: 20px;
   }
