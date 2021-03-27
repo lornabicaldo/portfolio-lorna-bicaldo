@@ -49,6 +49,13 @@ h3 {
   line-height: 5px;
 }
 
+.git-link {
+  color: var(--primary-color);
+  background-color: #131e25;
+  font-family: var(--project-primary-font);
+  font-size: 28px;
+}
+
 .about-page {
   margin-top: 80px;
 }
@@ -318,5 +325,9 @@ footer .avatar {
 
   footer p {
     font-size: 10px;
+  }
+
+  .git-link {
+    font-size: 18px;
   }
 }
