@@ -185,6 +185,12 @@ h3 {
 
 .nav-item {
   font-size: 25px;
+  padding-left: 10px;
+}
+
+.nav-item:hover {
+  font-size: 40px;
+  font-family: var(--project-primary-font);
 }
 
 .nav-link {
@@ -196,12 +202,12 @@ h3 {
 }
 
 footer .email-link {
-  text-decoration: none;
   color: var(--primary-color);
   font-size: 25px;
 }
 
 footer .email-link:hover {
+  text-decoration: none;
   color: var(--secondary-color);
   font-size: 35px;
   font-family: var(--project-primary-font);
@@ -233,6 +239,10 @@ footer .f-link {
 footer .f-link:hover {
   color: var(--primary-color);
   transition: var(--transition);
+}
+
+footer .avatar {
+  max-width: 68px;
 }
 
 @media (max-width: 576px) {
@@ -269,7 +279,7 @@ footer .f-link:hover {
   }
 
   .about-page {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
   }
 
@@ -291,8 +301,8 @@ footer .f-link:hover {
     border: 1px snow;
   }
 
-  .avatar {
-    margin-bottom: 40px;
+  footer .avatar {
+    margin-bottom: 20px;
   }
 
   footer .social-links a {
@@ -303,6 +313,6 @@ footer .f-link:hover {
   }
 
   footer p {
-    padding-top: 20px;
+    font-size: 10px;
   }
 }
